@@ -14,3 +14,9 @@
 1594112043163	Marionette	INFO	Listening on port 56269
 1594112043241	Marionette	WARN	TLS certificate errors will be ignored for this session
 1594112043766	Marionette	INFO	Stopped listening on port 56269
+1594181689787	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z5/pg2_brc95fbfp67c66ty88pw0000gn/T/rust_mozprofileatAxJt"
+1594181700864	Marionette	INFO	Listening on port 56657
+1594181700906	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594181701394	Marionette	INFO	Stopped listening on port 56657
+console.error: services.settings: 
+  main/cfr Signature failed  TypeError: NetworkError when attempting to fetch resource.
