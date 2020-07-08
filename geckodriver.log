@@ -20,3 +20,12 @@
 1594181701394	Marionette	INFO	Stopped listening on port 56657
 console.error: services.settings: 
   main/cfr Signature failed  TypeError: NetworkError when attempting to fetch resource.
+1594183949948	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z5/pg2_brc95fbfp67c66ty88pw0000gn/T/rust_mozprofiler9J54e"
+1594183959378	Marionette	INFO	Listening on port 56839
+1594183959415	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594183959761	Marionette	INFO	Stopped listening on port 56839
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xB000E,name=PBackgroundIDBDatabase::Msg_CloseAfterInvalidationComplete) Channel error: cannot send/recv
+
+console.error: services.settings: 
+  main/cfr Signature failed  TypeError: NetworkError when attempting to fetch resource.
