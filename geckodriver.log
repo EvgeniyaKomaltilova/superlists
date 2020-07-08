@@ -29,3 +29,13 @@ console.error: services.settings:
 
 console.error: services.settings: 
   main/cfr Signature failed  TypeError: NetworkError when attempting to fetch resource.
+1594188980053	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z5/pg2_brc95fbfp67c66ty88pw0000gn/T/rust_mozprofileuOgFe2"
+1594188986167	Marionette	INFO	Listening on port 57010
+1594188986234	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594188986673	Marionette	INFO	Stopped listening on port 57010
+1594190029387	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z5/pg2_brc95fbfp67c66ty88pw0000gn/T/rust_mozprofilevl33zP"
+1594190035240	Marionette	INFO	Listening on port 57124
+1594190035400	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594190035821	Marionette	INFO	Stopped listening on port 57124
+console.error: services.settings: 
+  main/cfr Signature failed  TypeError: NetworkError when attempting to fetch resource.
