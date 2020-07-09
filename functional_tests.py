@@ -39,18 +39,30 @@ class NewVisitorTest(unittest.TestCase):
         # После нажатия ENTER страница обновляется, и теперь страница содержит:
         # "1. Купить павлиньи перья" в качестве элемента списка
         inputbox.send_keys(Keys.ENTER)
-        time.sleep(1)
+        time.sleep(3)
         table = self.browser.find_element_by_id('id_list_table')
         rows = table.find_elements_by_tag_name('tr')
-        self.assertTrue(any(row.text == '1: Купить павлиньи перья' for row in rows))
+        self.assertIn('1: Купить павлиньи перья', [row.text for row in rows])
 
         #  Текстовое поле по-прежнему предлагает добавить элемент списка.
         # Пользователь вводит "Сделать мушку из павлиньих перьев"
-        self.fail('Закончить тест!')
+        inputbox = self.browser.find_element_by_id('id_new_item')
+        self.assertEqual(
+            inputbox.get_attribute('placeholder'),
+            'Enter a to-do item'
+        )
+        inputbox.send_keys('Сделать мушку из павлиньих перьев')
+        inputbox.send_keys(Keys.ENTER)
+        time.sleep(3)
+
         # Страница вновь обновляется, и теперь показывает оба элемента списка
+        table = self.browser.find_element_by_id('id_list_table')
+        rows = table.find_elements_by_tag_name('tr')
+        self.assertIn('1: Купить павлиньи перья', [row.text for row in rows])
+        self.assertIn('2: Сделать мушку из павлиньих перьев', [row.text for row in rows])
 
         # Сайт запоминает этот список. Сгенерирован уникальный URL, и об этом выводится текст с объснением
-
+        self.fail('Закончить тест!')
         # При посещении полученного URL-адреса - там действительно хранится список.
 
         # Пользователь покидает сайт
