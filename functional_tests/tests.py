@@ -1,10 +1,10 @@
+from django.test import LiveServerTestCase
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
-import unittest
 
 
-class NewVisitorTest(unittest.TestCase):
+class NewVisitorTest(LiveServerTestCase):
     """Тест нового посетителя"""
 
     def setUp(self):
@@ -25,7 +25,7 @@ class NewVisitorTest(unittest.TestCase):
         """тест: можно начать список и получить его позже"""
 
         # Пользователь видит домашнюю страницу
-        self.browser.get('http://localhost:8000')
+        self.browser.get(self.live_server_url)
 
         # Заголовок и шапка страницы говорят о списке неотложных дел
         self.assertIn('To-Do', self.browser.title)
@@ -71,7 +71,3 @@ class NewVisitorTest(unittest.TestCase):
 
         # Пользователь покидает сайт
 
-
-if __name__ == '__main__':
-    if __name__ == '__main__':
-        unittest.main(warnings='ignore')
