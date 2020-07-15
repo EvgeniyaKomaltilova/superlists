@@ -166,3 +166,19 @@ JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: 
 1594798230450	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
 1594798237199	Marionette	INFO	Stopped listening on port 63948
+1594798606894	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z5/pg2_brc95fbfp67c66ty88pw0000gn/T/rust_mozprofile18RC48"
+1594798610195	Marionette	INFO	Listening on port 64043
+1594798610286	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+1594798617024	Marionette	INFO	Stopped listening on port 64043
+1594798621981	Marionette	INFO	Stopped listening on port 63870
+1594808009534	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z5/pg2_brc95fbfp67c66ty88pw0000gn/T/rust_mozprofilewilIWz"
+1594808018184	Marionette	INFO	Listening on port 64204
+1594808018307	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+1594808025028	Marionette	INFO	Stopped listening on port 64204
+1594808039260	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z5/pg2_brc95fbfp67c66ty88pw0000gn/T/rust_mozprofileAHbwGj"
+1594808042371	Marionette	INFO	Listening on port 64331
+1594808042452	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+1594808046357	Marionette	INFO	Stopped listening on port 64331
