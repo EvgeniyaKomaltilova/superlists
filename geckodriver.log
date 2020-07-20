@@ -314,3 +314,43 @@ console.error: Region.jsm: "Failed to fetch region" (new TypeError("NetworkError
 1595223137691	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
 1595223138768	Marionette	INFO	Stopped listening on port 52260
+1595229188283	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z5/pg2_brc95fbfp67c66ty88pw0000gn/T/rust_mozprofileDrKgdo"
+1595229194066	Marionette	INFO	Listening on port 52549
+1595229194149	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595229194528	Marionette	INFO	Stopped listening on port 52549
+1595229197120	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z5/pg2_brc95fbfp67c66ty88pw0000gn/T/rust_mozprofileJbIa6b"
+1595229200317	Marionette	INFO	Listening on port 52638
+1595229200400	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595229200924	Marionette	INFO	Stopped listening on port 52638
+console.error: services.settings: 
+  main/fxmonitor-breaches Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/cfr-fxa Signature failed  TypeError: NetworkError when attempting to fetch resource.
+1595229204439	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z5/pg2_brc95fbfp67c66ty88pw0000gn/T/rust_mozprofileIuJZ1i"
+1595229207567	Marionette	INFO	Listening on port 52701
+1595229207606	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595229207889	Marionette	INFO	Stopped listening on port 52701
+console.error: services.settings: 
+  main/cfr-fxa Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: Region.jsm: "Failed to fetch region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+1595229318069	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z5/pg2_brc95fbfp67c66ty88pw0000gn/T/rust_mozprofileDHFf7H"
+1595229322425	Marionette	INFO	Listening on port 52774
+1595229322464	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+1595229326229	Marionette	INFO	Stopped listening on port 52774
+1595229328785	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z5/pg2_brc95fbfp67c66ty88pw0000gn/T/rust_mozprofileuttSZq"
+1595229331885	Marionette	INFO	Listening on port 52849
+1595229331975	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+1595229333334	Marionette	INFO	Stopped listening on port 52849
+1595229337860	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z5/pg2_brc95fbfp67c66ty88pw0000gn/T/rust_mozprofilece8v4n"
+1595229340996	Marionette	INFO	Listening on port 52914
+1595229341047	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+1595229342163	Marionette	INFO	Stopped listening on port 52914
+1595229348742	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z5/pg2_brc95fbfp67c66ty88pw0000gn/T/rust_mozprofileu2kjU5"
+1595229351833	Marionette	INFO	Listening on port 52980
+1595229351929	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+1595229353145	Marionette	INFO	Stopped listening on port 52980
+console.warn: services.settings: main/whats-new-panel sync interrupted by shutdown
