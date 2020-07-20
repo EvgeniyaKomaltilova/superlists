@@ -30,6 +30,8 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     # my apps
     'lists',
+    # side apps
+    'bootstrap4',
     # django apps
     'django.contrib.admin',
     'django.contrib.auth',
