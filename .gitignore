@@ -1,6 +1,6 @@
 venv/
 /.idea
-db.sqlite3
+/database/db.sqlite3
 __pychache__
 */__pychache__/
 superlists/settings.py

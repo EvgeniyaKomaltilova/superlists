@@ -616,3 +616,19 @@ console.error: services.settings:
 1595669555346	Marionette	INFO	Stopped listening on port 50564
 console.error: services.settings: 
   main/cfr Signature failed  TypeError: NetworkError when attempting to fetch resource.
+1595673586453	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z5/pg2_brc95fbfp67c66ty88pw0000gn/T/rust_mozprofile3b4DBN"
+1595673593587	Marionette	INFO	Listening on port 50964
+1595673593616	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595673594133	Marionette	INFO	Stopped listening on port 50964
+console.warn: services.settings: main/cfr sync interrupted by shutdown
+1595673596730	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z5/pg2_brc95fbfp67c66ty88pw0000gn/T/rust_mozprofileYkpv0c"
+1595673599989	Marionette	INFO	Listening on port 51066
+1595673600028	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595673600777	Marionette	INFO	Stopped listening on port 51066
+console.error: services.settings: 
+  main/cfr Signature failed  TypeError: NetworkError when attempting to fetch resource.
+1595673603327	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z5/pg2_brc95fbfp67c66ty88pw0000gn/T/rust_mozprofile3hoG3R"
+1595673606482	Marionette	INFO	Listening on port 51128
+1595673606512	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595673607214	Marionette	INFO	Stopped listening on port 51128
+console.warn: services.settings: main/cfr sync interrupted by shutdown
