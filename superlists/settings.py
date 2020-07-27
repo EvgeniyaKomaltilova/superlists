@@ -22,10 +22,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '4li7_sqewq=7v$mse3j-1j-mtot+c+%e@9rfv$u!4y(d%@22@='
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = []
+# ПРЕДУПРЕЖДЕНИЕ СИСТЕМЫ БЕЗОПАСНОСТИ:
+# не запускать при включенном режиме debug в условиях эксплуатации!
+DEBUG = False
+TEMPLATE_DEBUG = DEBUG
+# Необходимо, когда DEBUG=False
+ALLOWED_HOSTS = ['superlists-staging.coding-weasel.ru']
 
 
 # Application definition
